@@ -1,0 +1,691 @@
+
+@media (max-width: 1024px) {
+    .navbar {
+        display: none; 
+    }
+
+    .menu-icon {
+        display: flex; 
+    }
+
+    #hamburger-nav {
+        display: flex;
+        position: fixed;
+    }
+    .menu-icon{
+        height: 33px;
+        width: 50px;
+        top: 60px;
+        right: 50px;
+    }
+    .menu-icon .bar{
+        height:5px ;
+        width: 40px;
+    }
+    .menu-links{
+        gap: 60px;
+    }
+    .menu-links a{
+        font-size: 50px;
+    }
+    /*---------home------------*/
+    
+    section{
+        height: fit-content;
+        position: initial;
+    }
+    .logo{
+        font-size: 6rem;
+    }
+    .home-content{
+        padding-top: 40px;
+        min-height: fit-content;
+
+    }
+    .home-content-1{
+        font-size: 130px;
+    }
+    .home-content-main{
+        font-size: 90px;
+    }
+    .home-content-2{
+        font-size: 130px;
+    }
+    .btn-btn-1,.btn-btn-2{
+        font-size: 35px;
+        width: fit-content;
+        border: rgb(53,53,53)0.5rem solid;
+    }
+    .button-container{
+        padding-top: 45px;
+        gap: 35px;
+    }
+    .social-icons{
+        padding: 50px;
+        gap: 35px;
+    }
+    .icon{
+        height: 13rem;
+    }
+    /*-----------------about----------*/
+    #about{
+        position: initial;
+    }
+    .row-about{
+        flex-wrap:wrap;
+        flex-direction: column;
+    }
+    .about-title-1 {
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-size: 80px;
+    }
+    .about-title-2{
+        font-size: 80px;
+    }
+    .c2 p{
+        font-size: 18px;
+        margin-left: 12px;
+    }
+    .c2 button{
+        font-size: 45px;
+        margin-bottom: 25px;
+        margin-left: 15px;
+    }
+    #skills{
+        position: initial;
+    }
+
+    .skill-container {
+        padding: 2.5rem;
+        min-height :fit-content;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-container-1{
+        flex-direction: column;
+        justify-content: center;
+        gap: 70px;
+        }
+    .skill-main-header {
+        font-size: 90px;
+        margin-bottom: 1.5rem;
+    }
+
+    .skill-header {
+        font-size: 40px;
+        margin-bottom: 1rem;
+    }
+
+    .skill-container-1,
+    .skill-container-2 {
+        margin: 1.5rem 3rem;
+        padding: 1.5rem;
+        width:fit-content;
+        flex-direction: column;
+        border: var(--text-color) 0.4rem solid;
+    }
+    .Education-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        align-items: center;
+        border: none;
+        width: 50%;
+        margin-left: 180px;
+    }
+    .Education-container:hover {
+        transform: none;
+        box-shadow: none;
+        border: none;
+    }
+    .skill-1-header{
+        font-size: 90px;
+    }
+    .article-container{
+        justify-content: center;
+        align-items: initial;
+        margin-left: 100px;
+        gap: 30px;
+    }
+    
+    article h1{
+        font-size: 70px;
+    }
+    article h3{
+        font-size:50px;
+    }
+    article .icon{
+        height: 8rem;
+    }
+    .icon-1{
+        height: 18rem;
+    }
+    .Education-container h1{
+        font-size: 75px;
+    }
+    .Education-container h3{
+        font-size: 45px;
+    }
+    .edu{
+        font-size: 30px;
+    }
+    .Education-container h2{
+        font-size: 35px;
+        margin-left: px;
+    }
+
+/*-------------------------------------------------------*/
+#contact{
+    position: initial;
+}
+   .contact-container {
+        padding: 2.5rem;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact-row{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-content{
+        flex-direction: row;
+    }
+    .contact-left{
+        margin-left: 0px;
+        width: fit-content;
+        height: fit-content;
+        gap: 20px;
+    }
+    .gmail{
+        font-size: 50px;
+    }
+    .phno{
+        font-size: 50px;
+    }
+    .icon-2{
+        height: 9.7rem;
+    }
+    .image{
+        height: 8rem;
+    }
+    .join{
+        gap: 20px;
+    }
+
+    .dup button{
+        font-size: 50px;
+        border: rgb(53,53,53) 0.3rem solid;
+        width: fit-content;
+        margin-bottom: 35px;
+    }
+    .contact-right{
+        max-height: fit-content;
+        width: fit-content;
+        margin-left: 0%;
+    }
+    .contact-sub-title, .contact-sub-title-1{
+        font-size: 70px;
+    }
+    .contact-content{
+        gap:30px;
+    }
+    .contact-content h1{
+        font-size: 30px;
+    }
+    .contact-base{
+        height: fit-content;
+    }
+    .base,.base-2 a{
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+}
+
+/*----------------------------------------------------*/
+
+@media (max-width: 768px) {
+    section {
+        height: 70vh;
+    }
+    .logo {
+        font-size: 4rem;
+    }
+    .home-content {
+        padding-top: 20px;
+    }
+    .home-content-1, .home-content-2 {
+        font-size: 80px;
+    }
+    .home-content-main {
+        font-size: 60px;
+    }
+    .btn-btn-1, .btn-btn-2 {
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+    .button-container {
+        padding-top: 20px;
+        gap: 20px;
+    }
+    .social-icons {
+        padding: 30px;
+        gap: 20px;
+    }
+    .icon {
+        height: 10rem;
+    }
+    .about-title-1, .about-title-2 {
+        font-size: 60px;
+    }
+    .c2 p {
+        font-size: 16px;
+    }
+    .c2 button {
+        font-size: 30px;
+        padding: 10px 20px;
+    }
+    .skill-main-header {
+        font-size: 60px;
+    }
+    .skill-header {
+        font-size: 30px;
+    }
+    .skill-container-1, .skill-container-2 {
+        margin: 1rem 2rem;
+        padding: 1rem;
+    }
+    .Education-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .skill-1-header {
+        font-size: 60px;
+    }
+    .article-container {
+        margin: 0 auto;
+        gap: 20px;
+    }
+    article h1 {
+        font-size: 40px;
+    }
+    article h3 {
+        font-size: 30px;
+    }
+    article .icon {
+        height: 6rem;
+    }
+    .icon-1 {
+        height: 12rem;
+    }
+    .Education-container h1 {
+        font-size: 60px;
+    }
+    .Education-container h3 {
+        font-size: 35px;
+    }
+    .edu {
+        font-size: 25px;
+    }
+    .contact-container {
+        padding: 1.5rem;
+    }
+    .contact-row {
+        gap: 30px;
+    }
+    .gmail, .phno {
+        font-size: 35px;
+    }
+    .icon-2 {
+        height: 7rem;
+    }
+    .image {
+        height: 6rem;
+    }
+    .dup button {
+        font-size: 35px;
+    }
+    .contact-sub-title, .contact-sub-title-1 {
+        font-size: 50px;
+    }
+    .contact-content h1 {
+        font-size: 25px;
+    }
+    .base, .base-2 a {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        height: 65vh;
+    }
+    .logo {
+        font-size: 3rem;
+    }
+    .home-content {
+        padding-top: 15px;
+    }
+    .home-content-1, .home-content-2 {
+        font-size: 60px;
+    }
+    .home-content-main {
+        font-size: 50px;
+    }
+    .btn-btn-1, .btn-btn-2 {
+        font-size: 20px;
+        padding: 8px 16px;
+    }
+    .button-container {
+        padding-top: 15px;
+        gap: 15px;
+    }
+    .social-icons {
+        padding: 20px;
+        gap: 15px;
+    }
+    .icon {
+        height: 8rem;
+    }
+    .about-title-1, .about-title-2 {
+        font-size: 50px;
+    }
+    .c2 p {
+        font-size: 14px;
+    }
+    .c2 button {
+        font-size: 25px;
+        padding: 8px 16px;
+    }
+    .skill-main-header {
+        font-size: 50px;
+    }
+    .skill-header {
+        font-size: 25px;
+    }
+    .skill-container-1, .skill-container-2 {
+        margin: 0.5rem 1rem;
+        padding: 0.5rem;
+    }
+    .Education-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .skill-1-header {
+        font-size: 50px;
+    }
+    .article-container {
+        margin: 0 auto;
+        gap: 15px;
+    }
+    article h1 {
+        font-size: 30px;
+    }
+    article h3 {
+        font-size: 25px;
+    }
+    article .icon {
+        height: 5rem;
+    }
+    .icon-1 {
+        height: 10rem;
+    }
+    .Education-container h1 {
+        font-size: 50px;
+    }
+    .Education-container h3 {
+        font-size: 30px;
+    }
+    .edu {
+        font-size: 20px;
+    }
+    .contact-container {
+        padding: 1rem;
+    }
+    .contact-row {
+        gap: 20px;
+    }
+    .gmail, .phno {
+        font-size: 30px;
+    }
+    .icon-2 {
+        height: 6rem;
+    }
+    .image {
+        height: 5rem;
+    }
+    .dup button {
+        font-size: 30px;
+    }
+    .contact-sub-title, .contact-sub-title-1 {
+        font-size: 40px;
+    }
+    .contact-content h1 {
+        font-size: 20px;
+    }
+    .base, .base-2 a {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        height: 60vh;
+    }
+    .logo {
+        font-size: 2.5rem;
+    }
+    .home-content {
+        padding-top: 10px;
+    }
+    .home-content-1, .home-content-2 {
+        font-size: 50px;
+    }
+    .home-content-main {
+        font-size: 40px;
+    }
+    .btn-btn-1, .btn-btn-2 {
+        font-size: 18px;
+        padding: 6px 12px;
+    }
+    .button-container {
+        padding-top: 10px;
+        gap: 10px;
+    }
+    .social-icons {
+        padding: 15px;
+        gap: 10px;
+    }
+    .icon {
+        height: 6rem;
+    }
+    .about-title-1, .about-title-2 {
+        font-size: 40px;
+    }
+    .c2 p {
+        font-size: 12px;
+    }
+    .c2 button {
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+    .skill-main-header {
+        font-size: 40px;
+    }
+    .skill-header {
+        font-size: 20px;
+    }
+    .skill-container-1, .skill-container-2 {
+        margin: 0.5rem 1rem;
+        padding: 0.5rem;
+    }
+    .Education-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .skill-1-header {
+        font-size: 40px;
+    }
+    .article-container {
+        margin: 0 auto;
+        gap: 10px;
+    }
+    article h1 {
+        font-size: 25px;
+    }
+    article h3 {
+        font-size: 20px;
+    }
+    article .icon {
+        height: 4rem;
+    }
+    .icon-1 {
+        height: 8rem;
+    }
+    .Education-container h1 {
+        font-size: 40px;
+    }
+    .Education-container h3 {
+        font-size: 25px;
+    }
+    .edu {
+        font-size: 15px;
+    }
+    .contact-container {
+        padding: 0.5rem;
+    }
+    .contact-row {
+        gap: 15px;
+    }
+    .gmail, .phno {
+        font-size: 25px;
+    }
+    .icon-2 {
+        height: 5rem;
+    }
+    .image {
+        height: 4rem;
+    }
+    .dup button {
+        font-size: 25px;
+    }
+    .contact-sub-title, .contact-sub-title-1 {
+        font-size: 30px;
+    }
+    .contact-content h1 {
+        font-size: 18px;
+    }
+    .base, .base-2 a {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none; 
+    }
+
+    .menu-icon {
+        display: flex; 
+    }
+
+    #hamburger-nav {
+        display: flex;
+        position: fixed;
+    }
+
+    .menu-icon {
+        height: 30px;
+        width: 45px;
+        top: 40px;
+        right: 40px;
+    }
+
+    .menu-icon .bar {
+        height: 4px;
+        width: 35px;
+    }
+
+    .menu-links {
+        gap: 40px;
+    }
+
+    .menu-links a {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .navbar {
+        display: none; 
+    }
+
+    .menu-icon {
+        display: flex; 
+    }
+
+    #hamburger-nav {
+        display: flex;
+        position: fixed;
+    }
+
+    .menu-icon {
+        height: 25px;
+        width: 40px;
+        top: 30px;
+        right: 30px;
+    }
+
+    .menu-icon .bar {
+        height: 3px;
+        width: 30px;
+    }
+
+    .menu-links {
+        gap: 30px;
+    }
+
+    .menu-links a {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .navbar {
+        display: none; 
+    }
+
+    .menu-icon {
+        display: flex; 
+    }
+
+    #hamburger-nav {
+        display: flex;
+        position: fixed;
+    }
+
+    .menu-icon {
+        height: 20px;
+        width: 35px;
+        top: 20px;
+        right: 20px;
+    }
+
+    .menu-icon .bar {
+        height: 2px;
+        width: 25px;
+    }
+
+    .menu-links {
+        gap: 20px;
+    }
+
+    .menu-links a {
+        font-size: 20px;
+    }
+}

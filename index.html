@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viweport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel= "stylesheet" href="index-main-css.css">
+        <link rel="stylesheet" href="index-small-screen-css.css">
+
+    </head>
+    <body>
+<!---------home------------------>
+<div id="home">
+    <header class="header">
+        <a href="#home" class="logo">Joshua<span> Ranish T</span></a>
+
+     
+        <div class="menu-icon" id="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <nav id="hamburger-nav">
+        <div class="menu-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    
+        <section>
+            <div class="home-content">
+                <br>
+                <h1 class="home-content-1">Hello,I'm</h1><br>
+                <h1 class="home-content-main"><span>Joshua Ranish T</span></h1><br>
+                <h1 class="home-content-2">Software Developer</h1>
+                <div class="button-container">  
+                    <button class="btn-btn-1" onclick='window.open("Joshua Ranish T-Resume.pdf")' >Get My Resume</button>
+                    <button class="btn-btn-2" onclick="location.href='#contact'">Contact Info</button>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/joshua-ranish-t-1065822b9/"><img src="linkedin.png" alt="My Linked-in Profile" class="icon" ></a>
+                    <a href="https://github.com/Joshua-Ranish-T"><img src="github.png" alt="My Github Profile" class="icon"></a>   
+                </div>
+            </div>
+        </section>
+</div>
+<!--------About------------------>
+<div id="about">
+    <div class="about-container">
+        <div class="row-about">
+            <div class="c1">
+                <a href="https://leetcode.com/u/Joshua_Ranish_T/"><img src="code-logo.jpg" alt="Logo"></a>
+            </div>
+            <div class="c2">
+                <br>
+                <h1 class="about-title-1">About<span class="about-title-2">  Me</span></h1><br><br>
+                <p>Hello! I Am Currently Pursuing My Education At <span class="p-span"> Chennai Institute Of Technology,</span> Where I Have Been Excelling Academically With A Remarkable CGPA Of 9.57 In The <span class="p-span"> First Semester</span>. My Major Coursework Focuses On Essential Subjects Such As Operating Systems, Database Management Systems, Computer Networks, Object-Oriented Programming, <span class="p-span"> Data Structures And Algorithms</span>. Since Beginning My Educational Journey In 2023, I Have Been Dedicated To Expanding <span class="p-span"> My Knowledge And Skills </span> In The Field Of Computer Science. With An Expected Graduation Year Of 2027, I Am Eager To Leverage My Education <span class="p-span"> To Contribute </span> Meaningfully To The <span class="p-span"> World Of Technology </span> And Embark On Exciting Opportunities.</p>
+                <br><br><button class="btn-btn-2" onclick="location.href='#contact'">Hire Me</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------Skill------------------>
+<div id="skills">
+    <div class="skill-container">
+        <br><br>
+        <h2 class="skill-header">Explore My</h2>
+        <h1 class="skill-main-header">Skills</h1>
+        <br><br><br><br>
+        <div class="about-container-1">
+            <div class="skill-container-1">
+                <h2 class="skill-1-header">Frontend Development</h2><br><br>
+                <div class="article-container">
+                    <article>
+                        <img src="checkmark.png" alt="Bullet" class="icon">
+                        <div>
+                            <h1>HTML5</h1>
+                            <h3>Experienced</h3>
+                            <br>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checkmark.png" alt="Bullet" class="icon">
+                        <div>
+                            <h1>CSS3</h1>
+                            <h3>Intermediate</h3>
+                            <br>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checkmark.png" alt="Bullet" class="icon">
+                        <div>
+                            <h1>JavaScript</h1>
+                            <h3>Basic</h3>
+                            <br>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="skill-container-2">
+                <h1 class="skill-1-header">Programming Language</h1><br><br>
+                <div class="article-container">
+                    <article>
+                        <img src="checkmark.png" alt="Bullet" class="icon">
+                        <div>
+                            <h1>Java</h1>
+                            <h3>Intermediate</h3>
+                            <br>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checkmark.png" alt="Bullet" class="icon">
+                        <div>
+                            <h1>C++</h1>
+                            <h3>Intermediate</h3>
+                            <br>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="checkmark.png" alt="Bullet" class="icon">
+                        <div>
+                            <h1>Python</h1>
+                            <h3>Basic</h3>
+                            <br>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="Education-container">
+                <img src="education.png" alt="Education-logo" class="icon-1">
+                <h1>Education</h1>
+                <h3>B.Tech<span class="edu">- Bachelor's Degree</span></h3>
+                <h2><b>Information Technology</b></h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------Contact--------------->
+<div id="contact" >
+    <div class="contact-container">
+        <h1 id= "contact-main-head" class="about-title-1"> Contact<span class="about-title-2">  Me</span></h1><br><br>
+        <div class="contact-row">
+           
+            <div class="contact-left">
+                <div class="join">
+                <a href="mailto:joshuaranish@gmail.com"><img src="email.png" alt="Email-logo" class="icon-2"></a>
+                <h2 class="gmail">joshuaranish@gmail.com</h2>
+                </div>
+                <br><br>
+                <div class="join">
+                    <img src="phone-logo.webp" alt="Phone-logo" class="image">
+                    <h2 class="phno">+91 8220002104</h2>
+                    </div>
+                    <br><br>
+                <div class="join">
+                    <a href="https://www.linkedin.com/in/joshua-ranish-t-1065822b9/"><img src="linkedin.png" alt="My Linked-in Profile" class="image"></a>
+                    <h2 class="phno">Linked-in</h2>
+                    </div>
+                    <br><br>
+                <div class="join">
+                    <a href="https://github.com/Joshua-Ranish-T"><img src="github.png" alt="My Github Profile" class="image"></a>
+                    <h2 class="phno">Joshua-Ranish-T</h2>
+                    </div>
+                    <br><br>
+                <div class="dup">
+                    <button class="btn-btn" onclick='window.open("Joshua Ranish T-Resume.pdf")' >Download Resume</button>
+                </div>
+
+            </div>  
+            <div class="contact-right">
+                <div class="contact-right-header">
+                <h1 class="contact-sub-title">I'm Intrested <span class="contact-sub-title-1"> About</span></h1>
+                </div>
+                <div class="contact-content">
+                    <h1 class="contact-content-1">Frontend Development</h1>
+                    <h1 class="contact-content-1">Backend Development</h1>
+                    <h1 class="contact-content-1">OS</h1>
+                    <h1 class="contact-content-1">Artificial Intelligence</h1>
+                    <h1 class="contact-content-1">Programming Language</h1>
+                    <h1 class="contact-content-1">App Development</h1>
+                </div>
+                <div class="contact-base">
+                <h1 class="base" >Wanna Hire Me ? <span class="base-2"><a href="mailto:joshuaranish@gmail.com">Mail</a></span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------Footer---------------->
+<footer>
+    <h1 class="foot">Copyright &#169; 2024 Joshua Ranish T. All Rights Reversed.</h1>
+</footer>
+
+
+<script>
+    function toggleMenu() {
+        var nav = document.getElementById('hamburger-nav');
+        nav.classList.toggle('active');
+    }
+
+    document.getElementById('menu-icon').addEventListener('click', toggleMenu);
+
+    var menuLinks = document.querySelectorAll('#hamburger-nav .menu-links a');
+    menuLinks.forEach(function(link) {
+        link.addEventListener('click', toggleMenu);
+    });
+</script>
+
+
+
+    </body>
+</html>
